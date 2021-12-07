@@ -1,28 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.scss';
+import { useEffect, useState } from 'react';
+import Form from './components/form';
+import { useAppDispatch, useAppSelector } from './app/hooks';
+import { Route, Routes } from 'react-router-dom';
+import NotFound from './pages/NotFound';
+import Main from './pages/Main';
+import Translations from './pages/Translations';
 
-const App = () => (
-  <div className="App">
-    <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>
-        Edit
-        {' '}
-        <code>src/App.tsx</code>
-        {' '}
-        and save to reload.
-      </p>
-      <a
-        className="App-link"
-        href="https://reactjs.org"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Learn React
-      </a>
-    </header>
-  </div>
-);
+const App = () => {
+  return (
+    <Routes>
+      <Route path="/" element={<Main />} />
+      <Route path="/translations" element={<Translations />} />
+      <Route path="/404" element={<NotFound />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
+  );
+};
 
 export default App;
