@@ -40,7 +40,7 @@ const Main = () => {
     });
     setAnimalsFilter(filtredAnimals);
   };
-  console.log(animals);
+
   useEffect(() => {
     localStorage.setItem('animals', JSON.stringify(animals));
     setAnimalsFilter(animals);

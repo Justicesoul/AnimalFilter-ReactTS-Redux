@@ -140,7 +140,7 @@ const Translations = () => {
     (key: number) => langCodes[key] === selectLanguage
   );
 
-  const newArr = animals.map((item, index) => {
+  const newAnimalArr = animals.map((item, index) => {
     const name = Object.assign({}, item.name);
     //@ts-ignore
     name[getKeyByValue] = inputTranslate[index];
@@ -161,7 +161,7 @@ const Translations = () => {
     setSelectLanguage('');
     //@ts-ignore
     delete langCodes[getKeyByValue];
-    dispatch(updateAnimals(newArr));
+    dispatch(updateAnimals(newAnimalArr));
   };
 
   return (

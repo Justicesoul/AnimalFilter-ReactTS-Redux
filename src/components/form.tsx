@@ -13,7 +13,6 @@ const Form: React.FC<Props> = ({ clickHandler }) => {
   const [inputCreateSpecie, setInputCreateSpecie] = useState('');
   const [errorsCheck, setErrorsCheck] = useState(true);
   const [selectSpecie, setSelectSpecie] = useState('');
-
   const dispatch = useAppDispatch();
   const animals = useAppSelector((state) => state.animal);
   const species = animals.map((animal) => {
@@ -46,7 +45,7 @@ const Form: React.FC<Props> = ({ clickHandler }) => {
           name: { ['en']: inputAnimalName },
           imgSrc: inputAnimalImage,
           specie: createNewSpecies ? inputCreateSpecie : selectSpecie,
-          id: animals.length,
+          id: Math.random(),
         })
       );
     }
