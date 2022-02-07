@@ -2,6 +2,8 @@
 
 ### You can find project page here => https://justicesoul.github.io/AnimalFilter-ReactTS-Redux/
 
+Please, click on 404 image to start app.
+
 ![Project GIF](src/assets/images/projectRecord.gif)
 
 # Getting Started with Create React App
