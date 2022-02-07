@@ -2,8 +2,8 @@ import { createSlice, PayloadAction } from '@reduxjs/toolkit'
 
 type AnimalType = {
   name: {
-    [key: string]: string;
-  }
+    [key: string]: string
+  };
   imgSrc: string;
   specie: string;
   id: number;
