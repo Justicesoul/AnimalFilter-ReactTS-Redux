@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/AnimalFilter-ReactTS-Redux/static/css/main.267ac320.chunk.css",
+    "main.js": "/AnimalFilter-ReactTS-Redux/static/js/main.7b0c69ce.chunk.js",
+    "main.js.map": "/AnimalFilter-ReactTS-Redux/static/js/main.7b0c69ce.chunk.js.map",
+    "runtime-main.js": "/AnimalFilter-ReactTS-Redux/static/js/runtime-main.c1449185.js",
+    "runtime-main.js.map": "/AnimalFilter-ReactTS-Redux/static/js/runtime-main.c1449185.js.map",
+    "static/js/2.76ddd4bb.chunk.js": "/AnimalFilter-ReactTS-Redux/static/js/2.76ddd4bb.chunk.js",
+    "static/js/2.76ddd4bb.chunk.js.map": "/AnimalFilter-ReactTS-Redux/static/js/2.76ddd4bb.chunk.js.map",
+    "static/js/3.d553ef66.chunk.js": "/AnimalFilter-ReactTS-Redux/static/js/3.d553ef66.chunk.js",
+    "static/js/3.d553ef66.chunk.js.map": "/AnimalFilter-ReactTS-Redux/static/js/3.d553ef66.chunk.js.map",
+    "index.html": "/AnimalFilter-ReactTS-Redux/index.html",
+    "static/css/main.267ac320.chunk.css.map": "/AnimalFilter-ReactTS-Redux/static/css/main.267ac320.chunk.css.map",
+    "static/js/2.76ddd4bb.chunk.js.LICENSE.txt": "/AnimalFilter-ReactTS-Redux/static/js/2.76ddd4bb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c1449185.js",
+    "static/js/2.76ddd4bb.chunk.js",
+    "static/css/main.267ac320.chunk.css",
+    "static/js/main.7b0c69ce.chunk.js"
+  ]
+}
