@@ -1,3 +1,9 @@
+# Animal Filter
+
+### You can find project page here => https://justicesoul.github.io/AnimalFilter-ReactTS-Redux/
+
+![Project GIF](src/assets/images/projectRecord.gif)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
