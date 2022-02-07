@@ -1,6 +1,3 @@
-import { useEffect, useState } from 'react';
-import Form from './components/form';
-import { useAppDispatch, useAppSelector } from './app/hooks';
 import { Route, Routes } from 'react-router-dom';
 import NotFound from './pages/NotFound';
 import Main from './pages/Main';

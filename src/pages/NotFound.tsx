@@ -3,10 +3,13 @@ import { Link } from 'react-router-dom';
 const NotFound = () => {
   return (
     <>
-      <img src="./404.gif" />
-      <div className="row">
+      <div className="not-found__button">
         <Link className="button" to="/">
-          Back to Main page
+          <img
+            className="not-found__image"
+            src="./404.gif"
+            title="To the main page"
+          />
         </Link>
       </div>
     </>

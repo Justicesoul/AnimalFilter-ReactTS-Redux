@@ -48,7 +48,11 @@ const Main = () => {
 
   return (
     <div className="app">
-      <img className="logo" src="/logo.png" alt="logo" />
+      <img
+        className="logo"
+        src="https://www.misskatecuttables.com/uploads/shopping_cart/7561/large_cautionwildanimalstitle.png"
+        alt="logo"
+      />
       <div className="language">
         <select
           className="language__select"
