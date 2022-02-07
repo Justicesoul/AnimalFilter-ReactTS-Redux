@@ -141,9 +141,8 @@ const Translations = () => {
   );
 
   const newAnimalArr = animals.map((item, index) => {
-    const name = Object.assign({}, item.name);
-    //@ts-ignore
-    name[getKeyByValue] = inputTranslate[index];
+    const name = Object.assign({}, item.name);    
+    name[getKeyByValue as string] = inputTranslate[index];
     const imgSrc = item.imgSrc;
     const specie = item.specie;
     const id = item.id;
